@@ -8,7 +8,9 @@ Figura 1 - Meio drone
 
 ![](img/plant.jpg)
 
+## Apresentação final
 A apresentação contendo os desenvolvimentos e resultados pode ser vista <a href="Apresentação_Meio_Drone_final.pdf" class="image fit">aqui</a>.
 
-[![Video Title](https://i9.ytimg.com/vi/MJpE3WVZWKM/mq2.jpg?sqp=CPiBpbYG-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBhKFMwDw==&rs=AOn4CLD1Q-nberOX3KLuWjEESQ5kV2winQ)](https://youtube.com/shorts/MJpE3WVZWKM?feature=share)
+## Video demo
+Um video que demonstra a resposta ao acompanhamento de trajetória na presença de distúrbio pode ser visto <a href="https://youtube.com/shorts/MJpE3WVZWKM" class="image fit">aqui</a>.
 
