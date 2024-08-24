@@ -7,4 +7,4 @@ Figura 1 - Meio drone
 
 ![](img/plant.jpg)
 
-<a href="Apresentação_Meio_Drone_final.pdf" class="image fit"><img src="img/cut.jpg" alt=""></a>
+A apresentação contendo os desenvolvimentos e resultados pode ser vista <a href="Apresentação_Meio_Drone_final.pdf" class="image fit">aqui</a>.
