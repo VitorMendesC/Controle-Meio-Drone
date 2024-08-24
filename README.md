@@ -7,4 +7,4 @@ Figura 1 - Meio drone
 
 ![](img/plant.jpg)
 
-<a href="Apresentação_Meio_Drone_final.pdf" class="image fit"></a>
+<a href="Apresentação_Meio_Drone_final.pdf" class="image fit"><img src="img/cut.jpg" alt=""></a>
