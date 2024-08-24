@@ -1,3 +1,5 @@
 # Controle-Meio-Drone
-Controlador de um meio drone (haste presa a um rolamento com dois motores nas extremidades), com planejamento de trajetória.
+Controlador de um meio drone, exibido na Figura 1, com planejamento de trajetória.
+
+Figura 1 - Meio drone
 ![](img/plant.jpg)
