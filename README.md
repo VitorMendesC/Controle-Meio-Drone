@@ -20,7 +20,8 @@ Figura 2 - Planta em malha fechada.
 Onde F1 é a função que converte a saída do controlador dada em Newtons para o ciclo de trabalho correspondente que deve ser fornecido ao driver. De forma análoga F2 é a função que converte a leitura do potênciomentro de posição de tensão para radianos.
 
 A planta foi modelada através da resposta a entrada degrau, através da qual sabe-se que possui a forma
-    $H(s) = \frac{K}{Js^2+Bs} * \frac{A}{s}$
+
+        $$H(s) = \frac{K}{Js^2+Bs} * \frac{A}{s}$$
 
 
 ## Algoritimo de planejamento de rota
