@@ -25,6 +25,7 @@ A partir do modelo da planta foi desenvolvido um controlador PID discreto, para 
 
 Sendo os ganhos $Kp = 0.113, ~Ti = 16.9, ~Td = 2.16$.
 
+<br/><br/><br/>
 
 ## Algoritimo de planejamento de rota
 A Figura 3 demonstra a rota que foi implementada no controlador, a rota obedece essa estrutura trapezoidal mas todos os parametros são configuravéis, como inclinação máxima (velocidade angular máxima), tempo morto e posição final.
@@ -100,7 +101,7 @@ float route_planner(route_data *d){
     return relative_set_point;
 }
 ```
-Códigos presentes na <a href="CubeIDE workspace/Core/Src/main.c" class="image fit">main</a>.
+Códigos aqui apresentados estão presentes na <a href="CubeIDE workspace/Core/Src/main.c" class="image fit">main</a>.
 
 <br/><br/><br/>
 
@@ -113,7 +114,7 @@ Figura 4 - Acompanhamento de trajetória.
 
 ![](img/exp.jpg)
 
-Em seguida foi realizado novamente o experimento de acompanhamento de trajetório, porém desta vez foi adicionado um distúrbio. O distúrbio consiste nos ventos de um ventilador ligado em velocidade máxima posicionado ao lado da planta (na seção seguinte é incluido um vídeo deste experimento).
+Em seguida foi realizado novamente o experimento de acompanhamento de trajetório, porém desta vez foi adicionado um distúrbio. O distúrbio consiste nos ventos de um ventilador ligado posicionado ao lado da planta (na seção seguinte é incluido um vídeo deste experimento).
 
 <p align="center">
 Figura 5 - Acompanhamento de trajetória com distúrbio.
@@ -122,6 +123,7 @@ Figura 5 - Acompanhamento de trajetória com distúrbio.
 ![](img/exp_dist.jpg)
 
 O que se pode observar é que o drone foi capaz de acompanhar a trajetória até mesmo na presença do distúrbio, dentro de certa margem de erro.
+
 O que se concluiu também a partir do experimento sem disturbio, onde a curva experimental parece levemente deslocada no eixo y, é que muito provavelmente o sensor de posicação esta descalibrado, ou seja, o ociloscópio apresenta um erro de posição diferente daquele lido pelo microcontrolador.
 
 <br/><br/><br/>
